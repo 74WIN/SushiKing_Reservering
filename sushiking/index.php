@@ -1,4 +1,6 @@
 <?php require_once 'db/connect.php'; ?>
+<?php include 'php/add.php';?>
+<?php include 'php/delete.php';?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,28 +28,11 @@
                </tr>
             </table>
             <input type="submit" value="Reserveer"/>
-            <?php
-            //php code hieronder later in een aparte file stoppen
-            //voegt form toe aan de database
-                if(isset($_POST['naam'])) {
-                    $naam = $_POST['naam'];
-                    $telefoonnummer = $_POST['telefoonnummer'];
-                    $tijd = $_POST['tijd'];
-                    $personen = $_POST['personen'];
-                    $email = $_POST['email'];
-                    $opmerking = $_POST['opmerking'];
-                    $addq = "INSERT INTO reserveringen(naam, telefoonnummer, tijd, personen, email, opmerking) VALUES (:naam, :telefoonnummer, :tijd, :personen, :email, :opmerking);";
-                    $addquery = $handler->prepare($addq);
-                    $addresults = $addquery->execute(array(
-                        ":naam" => $naam,
-                        ":telefoonnummer" => $telefoonnummer,
-                        ":tijd" => $tijd,
-                        ":personen" => $personen,
-                        ":email" => $email,
-                        ":opmerking" => $opmerking,
-                    ));
-                }
-            ?>
+        </form>
+        <br>
+        <form method="post" action="">
+            E-mail: 	<input type="text" id="delEmail" name="delEmail"/><br>
+            <input type="submit" value="Delete"/>
         </form>
     </body>
 </html>

@@ -26,7 +26,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Een code om informatie aan de database toe te voegen,dit moet nog wel gestroomlijnd worden maar het doel was vooral een connectie te maken en iets toe te voegen" />
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Een code om informatie aan de database toe te voegen,dit moet nog wel gestroomlijnd worden maar het doel was vooral een connectie te maken en iets toe te voegen. v2.0">
+      <change afterPath="$PROJECT_DIR$/sushiking/php/add.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/php/delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +82,7 @@
       <workItem from="1606416440929" duration="889000" />
       <workItem from="1606660112046" duration="4130000" />
       <workItem from="1606664374168" duration="930000" />
+      <workItem from="1606665313281" duration="3097000" />
     </task>
     <task id="LOCAL-00001" summary="changed readme test">
       <created>1606414603339</created>
@@ -106,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606665016778</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Een code om informatie aan de database toe te voegen,dit moet nog wel gestroomlijnd worden maar het doel was vooral een connectie te maken en iets toe te voegen. v2.0">
+      <created>1606665405073</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606665405073</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +153,8 @@
     <MESSAGE value="changed readme test" />
     <MESSAGE value="testing git" />
     <MESSAGE value="Een code om informatie aan de database toe te voegen,dit moet nog wel gestroomlijnd worden maar het doel was vooral een connectie te maken en iets toe te voegen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Een code om informatie aan de database toe te voegen,dit moet nog wel gestroomlijnd worden maar het doel was vooral een connectie te maken en iets toe te voegen" />
+    <MESSAGE value="Een code om informatie aan de database toe te voegen,dit moet nog wel gestroomlijnd worden maar het doel was vooral een connectie te maken en iets toe te voegen. v2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Een code om informatie aan de database toe te voegen,dit moet nog wel gestroomlijnd worden maar het doel was vooral een connectie te maken en iets toe te voegen. v2.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3491" y="711" key="FileChooserDialogImpl" timestamp="1606665310045">
@@ -148,19 +162,20 @@
     </state>
     <state x="1241" y="470" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606664271474" />
     <state x="3491" y="711" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665310045" />
-    <state x="3354" y="805" key="NewPhpFileDialog" timestamp="1606660401933">
+    <state x="3354" y="805" key="NewPhpFileDialog" timestamp="1606672317718">
       <screen x="2560" y="362" width="1920" height="1040" />
     </state>
-    <state x="3354" y="805" key="NewPhpFileDialog/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606660401933" />
-    <state x="781" y="344" key="SettingsEditor" timestamp="1606416090744">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="3354" y="805" key="NewPhpFileDialog/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606672317718" />
+    <state x="3146" y="618" key="SettingsEditor" timestamp="1606665357530">
+      <screen x="2560" y="362" width="1920" height="1040" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606416090744" />
-    <state x="3214" y="673" key="Vcs.Push.Dialog.v2" timestamp="1606665213642">
+    <state x="3146" y="618" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665357530" />
+    <state x="3214" y="673" key="Vcs.Push.Dialog.v2" timestamp="1606665414265">
       <screen x="2560" y="362" width="1920" height="1040" />
     </state>
     <state x="872" y="419" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606415656127" />
-    <state x="3214" y="673" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665213642" />
+    <state x="3214" y="673" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665414265" />
     <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606416694003">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
