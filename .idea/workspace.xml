@@ -25,8 +25,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb de table veranderd naar div en css opmaak aangepast">
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Logo is clickable en nav bar is toegevoegd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/css/Opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/css/Opmaak.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sushi_King" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PRG02-test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607519044870</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Logo is clickable en nav bar is toegevoegd">
+      <created>1607521313596</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607521313596</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,17 +201,18 @@
     <MESSAGE value="Ik heb aparte php files gemaakt voor het toevoegen en verwijderen van de reserveringen in de database. Door je email in te vullen kan je dit verwijderen." />
     <MESSAGE value="Ik heb een nav bar, logo en achtergrond veranderd" />
     <MESSAGE value="Ik heb de table veranderd naar div en css opmaak aangepast" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ik heb de table veranderd naar div en css opmaak aangepast" />
+    <MESSAGE value="Logo is clickable en nav bar is toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logo is clickable en nav bar is toegevoegd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="344" key="#Notifications" timestamp="1607518091332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="344" key="#Notifications/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607518091332" />
-    <state x="931" y="349" key="FileChooserDialogImpl" timestamp="1607518149210">
+    <state x="931" y="349" key="FileChooserDialogImpl" timestamp="1607521591993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="931" y="349" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607518149210" />
+    <state x="931" y="349" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607521591993" />
     <state x="1241" y="470" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606664271474" />
     <state x="3491" y="711" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665310045" />
     <state x="3354" y="805" key="NewPhpFileDialog" timestamp="1606674193406">
@@ -214,10 +224,10 @@
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606416090744" />
     <state x="3146" y="618" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665357530" />
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607519058022">
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607521322538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607519058022" />
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607521322538" />
     <state x="872" y="419" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606415656127" />
     <state x="3214" y="673" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606673513491" />
     <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606416694003">
