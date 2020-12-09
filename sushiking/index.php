@@ -9,8 +9,19 @@
     <link href ="../css/Opmaak.css" rel = "stylesheet" type="text/css"/>
 </head>
 <body>
-<header>
-
+<header id="header-resevering">
+    <div id="logo">
+        <a href="https://www.mountainspring-sushiking.nl/">
+            <img src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png" width = 350px; height=" 220px">
+            <a/>
+    </div>
+    <div class="topnav">
+        <a class="active" href="winkelmandje">Winkelmandje</a>
+        <a href="#Bezorgen">Bezorgen</a>
+        <a href="#Contact">Contact</a>
+        <a href="#Menukaart">Menukaart</a>
+        <a href="#Home">Home</a>
+    </div>
 </header>
 <!--In de form hieronder kan jij de reservering plaatsen op de db-->
 <div class="main">
@@ -121,4 +132,5 @@
 </div>
 </body>
 </html>
+
 

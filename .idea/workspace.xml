@@ -25,7 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb een nav bar, logo en achtergrond veranderd" />
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb de table veranderd naar div en css opmaak aangepast">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607518489109</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Ik heb de table veranderd naar div en css opmaak aangepast">
+      <created>1607519044870</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607519044870</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +191,8 @@
     <MESSAGE value="Een code om informatie aan de database toe te voegen,dit moet nog wel gestroomlijnd worden maar het doel was vooral een connectie te maken en iets toe te voegen. v2.0" />
     <MESSAGE value="Ik heb aparte php files gemaakt voor het toevoegen en verwijderen van de reserveringen in de database. Door je email in te vullen kan je dit verwijderen." />
     <MESSAGE value="Ik heb een nav bar, logo en achtergrond veranderd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ik heb een nav bar, logo en achtergrond veranderd" />
+    <MESSAGE value="Ik heb de table veranderd naar div en css opmaak aangepast" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ik heb de table veranderd naar div en css opmaak aangepast" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="344" key="#Notifications" timestamp="1607518091332">
@@ -204,10 +214,10 @@
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606416090744" />
     <state x="3146" y="618" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665357530" />
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607518501162">
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607519058022">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607518501162" />
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607519058022" />
     <state x="872" y="419" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606415656127" />
     <state x="3214" y="673" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606673513491" />
     <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606416694003">
