@@ -10,7 +10,7 @@
     </head>
     <body>
     <!--In de form hieronder kan jij de reservering plaatsen op de db-->
-    <h1>Reserveren:</h1>
+    <h1>TEST:</h1>
         <form method="post" action="">
             <table>
                <tr>

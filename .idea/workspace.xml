@@ -19,18 +19,15 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:Emailprototype" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb aparte php files gemaakt voor het toevoegen en verwijderen van de reserveringen in de database. Door je email in te vullen kan je dit verwijderen.">
-      <change afterPath="$PROJECT_DIR$/sushiking/php/update.php" afterDir="false" />
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb een nav bar, logo en achtergrond veranderd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/php/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/add.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +41,28 @@
     <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
         <option value="garykuiler &lt;g.kuiler@outlook.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Emailprototype" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -59,7 +74,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Sushi_King" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -143,7 +158,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/main" />
+                        <option value="Emailprototype" />
                       </list>
                     </value>
                   </entry>
@@ -165,9 +180,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Ik heb aparte php files gemaakt voor het toevoegen en verwijderen van de reserveringen in de database. Door je email in te vullen kan je dit verwijderen." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3491" y="711" key="FileChooserDialogImpl" timestamp="1606665310045">
-      <screen x="2560" y="362" width="1920" height="1040" />
+    <state x="711" y="344" key="#Notifications" timestamp="1607518091332">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="711" y="344" key="#Notifications/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607518091332" />
+    <state x="931" y="349" key="FileChooserDialogImpl" timestamp="1607518149210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="931" y="349" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607518149210" />
     <state x="1241" y="470" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606664271474" />
     <state x="3491" y="711" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665310045" />
     <state x="3354" y="805" key="NewPhpFileDialog" timestamp="1606674193406">
