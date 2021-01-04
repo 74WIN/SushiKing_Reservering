@@ -2,7 +2,7 @@
 <html>
 <head>
     <title></title>
-    <link href ="../css/Opmaak.css" rel = "stylesheet" type="text/css"/>
+    <link href ="css/Opmaak.css" rel = "stylesheet" type="text/css"/>
 </head>
 <body>
 <header id="header-reservering">

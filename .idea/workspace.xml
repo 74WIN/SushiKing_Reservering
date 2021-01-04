@@ -25,17 +25,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast.">
-      <change afterPath="$PROJECT_DIR$/sushiking/aanpassen.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sushiking/bevestiging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sushiking/img/bloem (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sushiking/img/foto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sushiking/verwijderen.php" afterDir="false" />
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Verwijderen, aanpassen en bevestiging in apparte pagina's toegevoegd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/Php/E-mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/Php/E-mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/aanpassen/aanpassen.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/aanpassen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/bevestigen/bevestiging.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/bevestiging.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/css/Opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/css/Opmaak.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/db/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/db/connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/verwijderen/verwijderen.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/verwijderen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +90,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking" />
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem" />
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking\verwijderen" />
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking\bevestigen" />
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking\aanpassen" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking" />
     </key>
@@ -114,7 +118,7 @@
       <workItem from="1607549938236" duration="3023000" />
       <workItem from="1607940036494" duration="2086000" />
       <workItem from="1608119717997" duration="1260000" />
-      <workItem from="1609751294393" duration="1917000" />
+      <workItem from="1609751294393" duration="6900000" />
     </task>
     <task id="LOCAL-00001" summary="changed readme test">
       <created>1606414603339</created>
@@ -186,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607525964473</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Verwijderen, aanpassen en bevestiging in apparte pagina's toegevoegd">
+      <created>1609756358773</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609756358773</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +237,8 @@
     <MESSAGE value="Ik heb de table veranderd naar div en css opmaak aangepast" />
     <MESSAGE value="Logo is clickable en nav bar is toegevoegd" />
     <MESSAGE value="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast." />
+    <MESSAGE value="Verwijderen, aanpassen en bevestiging in apparte pagina's toegevoegd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Verwijderen, aanpassen en bevestiging in apparte pagina's toegevoegd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="344" key="#Notifications" timestamp="1607518091332">
@@ -250,10 +262,10 @@
     <state x="586" y="256" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607526015591" />
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606416090744" />
     <state x="3146" y="618" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665357530" />
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607550073874">
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1609760503767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607550073874" />
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1609760503767" />
     <state x="872" y="419" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606415656127" />
     <state x="3214" y="673" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606673513491" />
     <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606416694003">
