@@ -34,7 +34,7 @@ input[type=submit] {
 header {
 
 }
-#header-resevering {
+#header-reservering {
     width: 100%;
     height: 700px;
     background-image: url('../img/foto.png');
@@ -47,8 +47,8 @@ nav a {
     float: right;
     color: #292828;
     text-align: center;
-    font-size: 15px;
-    padding: 14px;
+    font-size: 10px;
+    padding: 5px;
     text-decoration: none;
     margin-top: 100px;
     font-weight: 900;
@@ -66,6 +66,12 @@ a:hover {
 }
 #verwijderen, #aanpassen{
     margin-top: 100px;
+}
+label{
+    width: 200px;
+    display: inline-block;
+    padding: 6px;
+    border:none;
 }
 /*-webkit-tap-highlight-color: rgba(0,0,0,0);
 --blue: #007bff;

@@ -25,9 +25,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Logo is clickable en nav bar is toegevoegd">
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast.">
+      <change afterPath="$PROJECT_DIR$/sushiking/aanpassen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/bevestiging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/img/bloem (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/img/foto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/verwijderen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/css/Opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/css/Opmaak.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/db/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/db/connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,15 +82,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PRG02-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mail-lecture" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,6 +111,10 @@
       <workItem from="1606660112046" duration="4130000" />
       <workItem from="1606664374168" duration="930000" />
       <workItem from="1606665313281" duration="6570000" />
+      <workItem from="1607549938236" duration="3023000" />
+      <workItem from="1607940036494" duration="2086000" />
+      <workItem from="1608119717997" duration="1260000" />
+      <workItem from="1609751294393" duration="1917000" />
     </task>
     <task id="LOCAL-00001" summary="changed readme test">
       <created>1606414603339</created>
@@ -163,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607521313596</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast.">
+      <created>1607525964473</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607525964473</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,37 +225,53 @@
     <MESSAGE value="Ik heb een nav bar, logo en achtergrond veranderd" />
     <MESSAGE value="Ik heb de table veranderd naar div en css opmaak aangepast" />
     <MESSAGE value="Logo is clickable en nav bar is toegevoegd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Logo is clickable en nav bar is toegevoegd" />
+    <MESSAGE value="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast." />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="344" key="#Notifications" timestamp="1607518091332">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="711" y="344" key="#Notifications/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607518091332" />
-    <state x="931" y="349" key="FileChooserDialogImpl" timestamp="1607521591993">
+    <state x="931" y="349" key="FileChooserDialogImpl" timestamp="1609755237812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="931" y="349" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607521591993" />
+    <state x="931" y="349" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1609755237812" />
     <state x="1241" y="470" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606664271474" />
     <state x="3491" y="711" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665310045" />
-    <state x="3354" y="805" key="NewPhpFileDialog" timestamp="1606674193406">
-      <screen x="2560" y="362" width="1920" height="1040" />
-    </state>
-    <state x="3354" y="805" key="NewPhpFileDialog/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606674193406" />
-    <state x="3146" y="618" key="SettingsEditor" timestamp="1606665357530">
-      <screen x="2560" y="362" width="1920" height="1040" />
-    </state>
-    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606416090744" />
-    <state x="3146" y="618" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665357530" />
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607521322538">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1609755863769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607521322538" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1609755863769" />
+    <state x="3354" y="805" key="NewPhpFileDialog/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606674193406" />
+    <state x="586" y="256" key="SettingsEditor" timestamp="1607526015591">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="256" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607526015591" />
+    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606416090744" />
+    <state x="3146" y="618" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665357530" />
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1607550073874">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607550073874" />
     <state x="872" y="419" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606415656127" />
     <state x="3214" y="673" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606673513491" />
     <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606416694003">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1097" y="613" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606416694003" />
+    <state x="345" y="102" width="1304" height="657" maximized="true" key="dock-window-1" timestamp="1607942950229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="345" y="102" width="1304" height="657" maximized="true" key="dock-window-1/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607942950229" />
+    <state x="0" y="315" width="1304" height="657" key="dock-window-2" timestamp="1607942950229">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="315" width="1304" height="657" key="dock-window-2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607942950229" />
+    <state x="-1501" y="362" width="1304" height="483" key="dock-window-3" timestamp="1609755411967">
+      <screen x="-1920" y="5" width="1920" height="1040" />
+    </state>
+    <state x="-1288" y="325" width="1304" height="657" key="dock-window-3/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1609751632980" />
+    <state x="-1501" y="362" width="1304" height="483" key="dock-window-3/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1609755411967" />
   </component>
 </project>
