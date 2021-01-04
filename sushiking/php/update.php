@@ -1,6 +1,6 @@
 <?php
 //php code hieronder later in een aparte file stoppen
-//voegt form toe aan de database
+//past bestaande data op de database, aan de hand van de email adres kunnen andere gegevens aangepast worden.
 if(isset($_POST['updEmail'])) {
     $updNaam = $_POST['updNaam'];
     $updTelefoonnummer = $_POST['updTelefoonnummer'];
