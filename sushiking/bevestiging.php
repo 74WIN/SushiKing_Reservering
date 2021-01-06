@@ -22,9 +22,10 @@
 <!--In de form hieronder kan jij de reservering plaatsen op de db-->
 <div class="main">
     <section>
+        <center>
         <h1>Bevestiging</h1>
         Bedank voor het reseveren! Als bevestiging hebben we u een e-mail gestuurd
-
+        </center>
         <section/>
         <!--In de form hieronder kan jij de reservering verwijderen op de db-->
 </div>

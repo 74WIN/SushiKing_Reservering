@@ -1,3 +1,5 @@
+<?php require_once 'php/update.php';?>
+<?php require_once 'db/connect.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,7 +68,7 @@
                     <option value=9">9 personen</option>
                     <option value=10">10 personen</option>
                 </select>
-                <input type="submit" value="Aanpassen"/>
+                <input type="submit" name="submit" value="Aanpassen"/>
         </div>
 </div>
 </body>

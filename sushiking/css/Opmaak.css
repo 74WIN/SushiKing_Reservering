@@ -1,15 +1,14 @@
 .main {
     background-color: antiquewhite;
     opacity: 100%;
-    width: 100%;
     padding: 20px;
-    text-align: center;
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: Avenir,Helvetica,Arial;
+    width: 100%;
     /*background-image: url('https://res.cloudinary.com/tf-lab/image/upload/w_1200,h_674,c_fill,g_auto:subject,q_auto,f_auto/restaurant/9c02e8cc-8320-4547-97a9-cf22f4acbcca/c031e6fb-f5ba-4b79-bb6b-f4d95dcb1692.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +32,7 @@ input[type=submit] {
     font-family: Avenir,Helvetica,Arial;
 }
 header {
-
+    transition: .5s;
 }
 #header-reservering {
     width: 100%;
@@ -54,7 +53,9 @@ nav a {
     text-decoration: none;
     margin-top: 100px;
     font-weight: 900;
+    transition: .5s;
 }
+
 a:hover {
     color: #777774;
 }
@@ -75,9 +76,18 @@ label{
     padding: 6px;
     border:none;
 }
-border{
-    border-style: groove;
+.border{
+    border-style: solid;
+    border-color: #777774;
+    width: 25%;
+    position: center;
+    border-radius: 25px;
+    margin: auto;
 }
+.knop{
+    text-align: center;
+}
+
 /*-webkit-tap-highlight-color: rgba(0,0,0,0);
 --blue: #007bff;
 --indigo: #6610f2;

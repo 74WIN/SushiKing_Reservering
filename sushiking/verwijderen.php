@@ -1,3 +1,5 @@
+<?php require_once 'db/connect.php'; ?>
+<?php require_once 'php/delete.php';?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +26,7 @@
         <h1>Verwijderen</h1>
         <form method="post" action="">
             E-mail: <input type="text" id="delEmail" name="delEmail"/><br>
-            <input type="submit" value="Delete"/>
+            <input type="submit" name="submit" value="Delete"/>
         </form>
     </div>
 </div>

@@ -26,10 +26,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Fout aangepast in een label waardoor het niet connect met de database. Php mailer werkend gemaakt op het moment is het alleen op (add) geimplenmeteerd. bij het reserveren wordt er een email gestuurd naar de klant.">
-      <change afterPath="$PROJECT_DIR$/sushiking/php/reserveringmailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/opmaak.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/src/Exception.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/src/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/src/PHPMailer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/src/POP3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/src/SMTP.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/aanpassen.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/aanpassen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/bevestiging.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/bevestiging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/css/Opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/css/Opmaak.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/db/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/db/connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/php/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/verwijderen.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/verwijderen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
