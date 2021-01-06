@@ -1,7 +1,7 @@
 <?php
 //php code hieronder later in een aparte file stoppen
 //voegt form toe aan de database
-if(isset($_POST['naam'])) {
+if(isset($_POST['submit'])) {
     $naam = $_POST['naam'];
     $telefoonnummer = $_POST['telefoonnummer'];
     $datum = $_POST['datum'];
@@ -20,4 +20,5 @@ if(isset($_POST['naam'])) {
         ":email" => $email,
         ":opmerking" => $opmerking,
     ));
+    require_once 'php/reserveringmailer.php';
 }

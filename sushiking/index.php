@@ -1,8 +1,7 @@
 <?php require_once 'db/connect.php'; ?>
-<?php include 'php/add.php';?>
-<?php include 'php/delete.php';?>
-<?php include 'php/update.php';?>
-<?php require 'php/reserveringmailer.php';?>
+<?php require_once 'php/add.php';?>
+<?php require_once 'php/delete.php';?>
+<?php require_once 'php/update.php';?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,7 +25,7 @@
 <div class="main">
     <section>
         <h1>Reserveren</h1>
-            <form method="post" action="php/reserveringmailer.php">
+            <form method="post" action="">
                 <div>
                     <label for="date">Datum:</label>
                     <input type="date" id="datum" name="datum" min="<?php echo date("Y-m-d"); ?>">
@@ -72,7 +71,7 @@
                     <textarea type="text" id="opmerking" name="opmerking"></textarea>
                 </div>
                 <br>
-                <input type="submit" value="Reserveer"/>
+                <input type="submit" name="submit" value="Reserveer"/>
             </form>
         <section/>
 
@@ -93,7 +92,7 @@
                 <div>
                     <label for="name">Name:</label>
 
-                    <input type="text" id="updNaam" name="naam">
+                    <input type="text" id="updNaam" name="updNaam">
                 </div>
                 <div>
                     <label for="email">email:</label>

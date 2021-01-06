@@ -16,24 +16,20 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast.">
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Fout aangepast in een label waardoor het niet connect met de database. Php mailer werkend gemaakt op het moment is het alleen op (add) geimplenmeteerd. bij het reserveren wordt er een email gestuurd naar de klant.">
+      <change afterPath="$PROJECT_DIR$/sushiking/php/reserveringmailer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/Php/E-mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/Php/PHPMailer/Exception.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/Php/PHPMailer/OAuth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/Php/PHPMailer/PHPMailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/Php/PHPMailer/POP3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/Php/PHPMailer/SMTP.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/Php/Reservering.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/Php/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/db/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/db/connect.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/php/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/php/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/update.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +67,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1kq3PFiPUdLYGLfRiZ5L8pWhEUm" />
   <component name="ProjectViewState">
@@ -117,6 +114,8 @@
       <workItem from="1609767965211" duration="1271000" />
       <workItem from="1609769266303" duration="5000" />
       <workItem from="1609769353786" duration="1317000" />
+      <workItem from="1609771984949" duration="4150000" />
+      <workItem from="1609926506150" duration="5278000" />
     </task>
     <task id="LOCAL-00001" summary="changed readme test">
       <created>1606414603339</created>
@@ -188,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607525964473</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fout aangepast in een label waardoor het niet connect met de database. Php mailer werkend gemaakt op het moment is het alleen op (add) geimplenmeteerd. bij het reserveren wordt er een email gestuurd naar de klant.">
+      <created>1609774284333</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609774284333</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,19 +205,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="Emailprototype" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -228,7 +222,8 @@
     <MESSAGE value="Ik heb de table veranderd naar div en css opmaak aangepast" />
     <MESSAGE value="Logo is clickable en nav bar is toegevoegd" />
     <MESSAGE value="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ik heb hover een kleur gegeven en de afstand tussen reserveren, verwijderen en aanpassen aangepast." />
+    <MESSAGE value="Fout aangepast in een label waardoor het niet connect met de database. Php mailer werkend gemaakt op het moment is het alleen op (add) geimplenmeteerd. bij het reserveren wordt er een email gestuurd naar de klant." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fout aangepast in een label waardoor het niet connect met de database. Php mailer werkend gemaakt op het moment is het alleen op (add) geimplenmeteerd. bij het reserveren wordt er een email gestuurd naar de klant." />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="344" key="#Notifications" timestamp="1607518091332">
@@ -239,6 +234,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="656" y="541" key="#SQL_Dialects/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1609766675799" />
+    <state x="1019" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609771904178">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1019" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1609771904178" />
     <state x="1241" y="470" key="FileChooserDialogImpl" timestamp="1609768746160">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -246,11 +245,11 @@
     <state x="1241" y="470" key="FileChooserDialogImpl/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1609768746160" />
     <state x="1241" y="470" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606664271474" />
     <state x="3491" y="711" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665310045" />
-    <state x="1059" y="596" key="NewPhpFileDialog" timestamp="1609763651600">
+    <state x="1059" y="596" key="NewPhpFileDialog" timestamp="1609772046493">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1609755863769" />
-    <state x="1059" y="596" key="NewPhpFileDialog/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1609763651600" />
+    <state x="1059" y="596" key="NewPhpFileDialog/0.0.2560.1400/-1920.350.1920.1040/2560.350.1920.1040@0.0.2560.1400" timestamp="1609772046493" />
     <state x="3354" y="805" key="NewPhpFileDialog/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606674193406" />
     <state x="586" y="256" key="SettingsEditor" timestamp="1607526015591">
       <screen x="0" y="0" width="1920" height="1040" />
