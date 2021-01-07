@@ -15,17 +15,17 @@
     </div>
     <nav>
         <a class="active" href="winkelmandje">Winkelmandje</a>
-        <a href="#Bezorgen">BEZORGEN</a>
-        <a href="#Contact">CONTACT</a>
-        <a href="#Menukaart">MENUKAART</a>
-        <a href="#Home">HOME</a>
+        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
+        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
+        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
+        <a href="https://www.mountainspring-sushiking.nl/">HOME</a>
     </nav>
 </header>
 <!--In de form hieronder kan jij de reservering plaatsen op de db-->
 <div class="main">
     <section class="border">
         <h1><center>Reserveren</center></h1>
-        <form method="post" action="bevestiging.php">
+        <form method="post" action="">
             <div>
                 <label for="date">Datum:</label>
                 <input type="date" name="datum" min="<?php echo date("Y-m-d"); ?>">
@@ -70,7 +70,7 @@
                 <textarea type="text" id="opmerking" name="opmerking"></textarea>
             </div>
             <div class="knop">
-                <input type="submit" name="submit" value="Reserveer"/>
+                <input type="submit" name="submit" value="Reserveer" href="bevestiging.php"/>
             </div>
         </form>
         <section/>

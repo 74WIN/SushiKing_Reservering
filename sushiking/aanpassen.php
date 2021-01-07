@@ -15,10 +15,10 @@
     </div>
     <nav>
         <a class="active" href="winkelmandje">Winkelmandje</a>
-        <a href="#Bezorgen">BEZORGEN</a>
-        <a href="#Contact">CONTACT</a>
-        <a href="#Menukaart">MENUKAART</a>
-        <a href="#Home">HOME</a>
+        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
+        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
+        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
+        <a href="https://www.mountainspring-sushiking.nl/">HOME</a>
     </nav>
 </header>
 <div class="main">

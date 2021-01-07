@@ -7,7 +7,6 @@ use PHPMailer\PHPMailer\Exception;
 //if(isset($_POST['submit'])) {
 // Load Composer's autoloader
     require 'vendor/autoload.php';
-
 // Instantiation and passing `true` enables exceptions
     $mail = new PHPMailer(true);
 
@@ -45,8 +44,14 @@ use PHPMailer\PHPMailer\Exception;
         $mail->AltBody = strip_tags($body);
 
         $mail->send();
-        echo 'Uw reservering is naar uw mail gestuurd';
+        header("Location: bevestiging.php");
     } catch (Exception $e) {
         echo "Mail Error. Uw reservering kon niet naar uw mail verstuurd worden: {$mail->ErrorInfo}";
     }
+/* This will give an error. Note the output
+* above, which is before the header() call */
+
+//header('bevestiging.php');
+//exit;
 //}
+
