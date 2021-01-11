@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFFFF;
+    font-family: Avenir,Helvetica,Arial;
+    background-image: url('img/foto.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+table {
+    width: 50%;
+    border-style: solid;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: #474747;
+    background-color: #FFFFFF;
+}
+
+th {
+    background-color: #ff2b2b;
+    color: white;
+}
+a
+
