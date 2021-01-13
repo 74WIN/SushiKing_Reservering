@@ -1,5 +1,4 @@
 <?php
-//php code hieronder later in een aparte file stoppen
 //past bestaande data op de database, aan de hand van de email adres kunnen andere gegevens aangepast worden.
 if(isset($_POST['updEmail'])) {
     $updNaam = $_POST['updNaam'];
@@ -18,5 +17,6 @@ if(isset($_POST['updEmail'])) {
         ":updEmail" => $updEmail,
         ":updOpmerking" => $updOpmerking,
     ));
+    require_once 'reserveringmailer.php';
 }
 ?>

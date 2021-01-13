@@ -1,3 +1,5 @@
+<?php require_once 'db/connect.php'; ?>
+<?php require_once 'php/delete.php';?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,10 +15,10 @@
     </div>
     <nav>
         <a class="active" href="winkelmandje">Winkelmandje</a>
-        <a href="#Bezorgen">BEZORGEN</a>
-        <a href="#Contact">CONTACT</a>
-        <a href="#Menukaart">MENUKAART</a>
-        <a href="#Home">HOME</a>
+        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
+        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
+        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
+        <a href="https://www.mountainspring-sushiking.nl/">HOME</a>
     </nav>
 </header>
 <div class="main">
@@ -24,7 +26,7 @@
         <h1>Verwijderen</h1>
         <form method="post" action="">
             E-mail: <input type="text" id="delEmail" name="delEmail"/><br>
-            <input type="submit" value="Delete"/>
+            <input type="submit" name="submit" value="Delete"/>
         </form>
     </div>
 </div>
