@@ -20,7 +20,6 @@
         <a href="https://www.mountainspring-sushiking.nl/">HOME</a>
     </nav>
 </header>
-<!--In de form hieronder kan jij de reservering plaatsen op de db-->
 <div class="main">
     <section>
         <center>
@@ -28,7 +27,6 @@
         Bedank voor het reseveren! Als bevestiging hebben we u een e-mail gestuurd
         </center>
         <section/>
-        <!--In de form hieronder kan jij de reservering verwijderen op de db-->
 </div>
 </body>
 </html>

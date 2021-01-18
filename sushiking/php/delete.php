@@ -1,10 +1,11 @@
 
 <?php
+require_once '../db/connect.php';
 //Delete from database
-if(isset($_POST['delEmail'])) {
-        $delEmail = $_POST['delEmail'];
-        $pdoQuery = "DELETE FROM `reserveringen` WHERE `email` = :delEmail";
-        $pdoResult = $handler->prepare($pdoQuery);
-        $pdoExec = $pdoResult->execute(array(":delEmail"=>$delEmail));
+    $id =  $_GET['id'];
+    $sql = "DELETE FROM reserveringen WHERE id = :id";
+    $statement = $handler->prepare($sql);
+    if ($statement->execute([':id' => $id])) {
+        header("Location: ../login/dataconn.php");
     }
 ?>

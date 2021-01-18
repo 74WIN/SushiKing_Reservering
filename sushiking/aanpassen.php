@@ -28,16 +28,16 @@
         <form method="post" action="">
             <div>
                 <label for="date">Datum:</label>
-                <input type="date" name="datum" min="<?php echo date("Y-m-d"); ?>">
+                <input type="date" name="updDatum" min="<?php echo date("Y-m-d"); ?>">
             </div>
             <label for="tijd">Tijd:</label>
-            <select id="tijd" name="tijd">
+            <select id="tijd" name="updTijd">
                 <option value="17:00">17:00</option>
                 <option value="20:00">20:00</option>
             </select>
             <br>
             <label for="personen">personen:</label>
-            <select id="personen" name="personen">
+            <select id="personen" name="updPersonen">
                 <option value=1>1 persoon</option>
                 <option value=2">2 personen</option>
                 <option value=3">3 personen</option>
@@ -52,22 +52,22 @@
             <div>
                 <label for="name">Naam:</label>
 
-                <input type="text" id="naam" name="naam" required>
+                <input type="text" id="naam" name="updNaam" required value="<?= htmlentities($updNaam); ?>">
             </div>
             <div>
                 <label for="telefoonnummer">Telefoonnummer:</label>
 
-                <input type="tel" id="telefoonnummer" name="telefoonnummer">
+                <input type="tel" id="telefoonnummer" name="updTelefoonnummer" required value="<?= htmlentities($updTelefoonnummer); ?>">
             </div>
             <div>
                 <label for="email">Email:</label>
 
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="updEmail" required value="<?= htmlentities($updEmail); ?>">
             </div>
             <div>
                 <label for="opmerking">Opmerking:</label>
 
-                <textarea type="text" id="opmerking" name="opmerking"></textarea>
+                <textarea type="text" id="opmerking" name="updOpmerking" value="<?= htmlentities($updOpmerking); ?>"></textarea>
             </div>
             <div class="knop">
                 <input type="submit" name="submit" value="Aanpassen" "/>

@@ -61,7 +61,7 @@
             <div>
                 <label for="telefoonnummer">Telefoonnummer:</label>
 
-                <input type="tel" id="telefoonnummer" name="telefoonnummer" required>
+                <input type="tel" id="telefoonnummer" name="telefoonnummer" required/>
             </div>
             <div>
                 <label for="email">Email:</label>
@@ -71,7 +71,7 @@
             <div>
                 <label for="opmerking">Opmerking:</label>
 
-                <textarea type="text" id="opmerking" name="opmerking" cols="30" rows="5" maxlength="50"></textarea>
+                <textarea type="text" id="opmerking" name="opmerking" cols="30" rows="5" maxlength="50" value="<?= htmlentities($opmerking); ?>"></textarea>
             </div>
             <div class="knop">
                 <input type="submit" name="submit" value="Reserveer" href="bevestiging.php"/>

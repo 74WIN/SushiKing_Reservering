@@ -24,6 +24,7 @@ use PHPMailer\PHPMailer\Exception;
         //Recipients
         $mail->setFrom('no-reply@sushiking.org', 'Sushi King');
         $mail->addAddress($_POST['email'], $_POST['naam']);     // Add a recipient
+       //$mail->addAddress('justinforwinxd@gmail.com');
         //$mail->addAddress('ellen@example.com');               // Name is optional
         //$mail->addReplyTo('info@example.com', 'Information');
         //$mail->addCC('cc@example.com');
@@ -41,7 +42,7 @@ use PHPMailer\PHPMailer\Exception;
 
         // Content
         $mail->isHTML(true);                                  // Set email format to HTML
-        $mail->Subject = 'Here is the subject';
+        $mail->Subject = 'Reservering bevestiging';
         $mail->Body = $body;
         $mail->AltBody = strip_tags($body);
 

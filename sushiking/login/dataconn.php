@@ -1,32 +1,11 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "sushiking";
+require_once '../php/xssSecurity.php';
+require_once '../db/connect.php';
 
-// Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "SELECT * FROM reserveringen";
-$result = mysqli_query($conn, $sql);
-
-$reserveringen = [];
-
-while ($row = mysqli_fetch_assoc($result)){
-    $reserveringen[] = $row;
-}
-mysqli_close($conn);
-?>
-<?php
-
-$url1=$_SERVER['REQUEST_URI'];
-
-header("Refresh: 5; URL=$url1");
-
+$sql = 'SELECT * FROM reserveringen';
+$statement = $handler->prepare($sql);
+$statement -> execute();
+$reserveringen = $statement -> fetchAll(PDO::FETCH_OBJ);
 ?>
 <html>
 <head>
@@ -35,7 +14,8 @@ header("Refresh: 5; URL=$url1");
     <link rel="stylesheet" href="css/opmaakdata.css">
 </head>
 <body>
-<<div class="item">
+<div class="item">
+    <form method="post" action="">
     <table class="adminTable">
         <tr>
             <th>id</th>
@@ -53,19 +33,22 @@ header("Refresh: 5; URL=$url1");
         //reads array and puts in table
         foreach($reserveringen as $value){ ?>
         <tr>
-            <td><?= $value["id"]?></td>
-            <td><?= $value["naam"]?></td>
-            <td><?= $value["telefoonnummer"]?></td>
-            <td><?= $value["email"]?></td>
-            <td><?= $value["personen"]?></td>
-            <td><?= $value["tijd"]?></td>
-            <td><?= $value["datum"]?></td>
-            <td><?= $value["opmerking"]?></td>
-            <td><a href="../aanpassen.php?id=<?= $value['id'] ?>">Edit</a></td>
-            <td><a href="../verwijderen.php?id=<?= $value['id'] ?>">Delete</a></td>
+            <td><?= e($value->id)?></td>
+            <td><?= e($value->naam)?></td>
+            <td><?= e($value->telefoonnummer)?></td>
+            <td><?= e($value->email)?></td>
+            <td><?= e($value->personen)?></td>
+            <td><?= e($value->tijd)?></td>
+            <td><?= e($value->datum)?></td>
+            <td><?= e($value->opmerking)?></td>
+            <td><a href="../aanpassen.php?id=<?= e($value->id) ?>">Edit</a></td>
+            <td>
+                <a href="../php/delete.php?id=<?= $value->id ?>">Delete</a>
+            </td>
         </tr>
         <?php } ?>
     </table>
+    </form>
 </div>
 </body>
 

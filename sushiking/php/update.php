@@ -3,6 +3,7 @@
 if(isset($_POST['updEmail'])) {
     $updNaam = $_POST['updNaam'];
     $updTelefoonnummer = $_POST['updTelefoonnummer'];
+    $updDatum = $_POST['updDatum'];
     $updTijd = $_POST['updTijd'];
     $updPersonen = $_POST['updPersonen'];
     $updEmail = $_POST['updEmail'];
@@ -12,6 +13,7 @@ if(isset($_POST['updEmail'])) {
     $addresults = $addquery->execute(array(
         ":updNaam" => $updNaam,
         ":updTelefoonnummer" => $updTelefoonnummer,
+        "updDatum" => $updDatum,
         ":updTijd" => $updTijd,
         ":updPersonen" => $updPersonen,
         ":updEmail" => $updEmail,
