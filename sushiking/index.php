@@ -5,14 +5,13 @@
 <head>
     <title></title>
     <link href ="css/Opmaak.css" rel = "stylesheet" type="text/css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header id="header-reservering">
-    <div id="logo">
-        <a href="https://www.mountainspring-sushiking.nl/">
-            <img src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png" width = 350px; height=" 220px">
-            <a/>
-    </div>
+    <a href="https://www.mountainspring-sushiking.nl/">
+        <img id="logo" src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png"/>
+    </a>
     <nav>
         <a class="active" href="winkelmandje">Winkelmandje</a>
         <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
@@ -28,16 +27,21 @@
         <form method="post" action="">
             <div>
                 <label for="date">Datum:</label>
-                <input type="date" name="datum" min="<?php echo date("Y-m-d"); ?>">
+                <input type="date" name="datum" min="<?php echo date("Y-m-d"); ?>" required>
             </div>
             <label for="tijd">Tijd:</label>
-            <select id="tijd" name="tijd">
+            <select id="tijd" name="tijd" required>
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
                 <option value="17:00">17:00</option>
-                <option value="20:00">20:00</option>
+                <option value="19:45">19:45</option>
             </select>
             <br>
             <label for="personen">personen:</label>
-            <select id="personen" name="personen">
+            <select id="personen" name="personen" required>
                 <option value=1>1 persoon</option>
                 <option value=2">2 personen</option>
                 <option value=3">3 personen</option>
@@ -57,7 +61,7 @@
             <div>
                 <label for="telefoonnummer">Telefoonnummer:</label>
 
-                <input type="tel" id="telefoonnummer" name="telefoonnummer">
+                <input type="tel" id="telefoonnummer" name="telefoonnummer" required>
             </div>
             <div>
                 <label for="email">Email:</label>
@@ -67,7 +71,7 @@
             <div>
                 <label for="opmerking">Opmerking:</label>
 
-                <textarea type="text" id="opmerking" name="opmerking"></textarea>
+                <textarea type="text" id="opmerking" name="opmerking" cols="30" rows="5" maxlength="50"></textarea>
             </div>
             <div class="knop">
                 <input type="submit" name="submit" value="Reserveer" href="bevestiging.php"/>

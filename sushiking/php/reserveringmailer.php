@@ -35,7 +35,9 @@ use PHPMailer\PHPMailer\Exception;
         $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
         */
 
-        $body = '<p>Je reservering bij Sushi King is gelukt!</p>';
+        $body = '<p>Bedankt voor uw reservering bij Sushi King.</br> 
+                Om' . $_POST['tijd'] . ' op ' . $_POST['datum'] . ' onder de naam ' . $_POST['naam'] . '.</br> Voor vragen kunt u telefonisch contact opnemen op 
+                0180-418 414. </br>Adres: </br> van Prinstererweg 19-21 <br> Ridderkerk</p>';
 
         // Content
         $mail->isHTML(true);                                  // Set email format to HTML
