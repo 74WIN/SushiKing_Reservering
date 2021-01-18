@@ -52,25 +52,25 @@
             <div>
                 <label for="name">Naam:</label>
 
-                <input type="text" id="naam" name="updNaam" required value="<?= htmlentities($updNaam); ?>">
+                <input type="text" id="naam" name="updNaam" required>
             </div>
             <div>
                 <label for="telefoonnummer">Telefoonnummer:</label>
 
-                <input type="tel" id="telefoonnummer" name="updTelefoonnummer" required value="<?= htmlentities($updTelefoonnummer); ?>">
+                <input type="tel" id="telefoonnummer" name="updTelefoonnummer" required>
             </div>
             <div>
                 <label for="email">Email:</label>
 
-                <input type="email" id="email" name="updEmail" required value="<?= htmlentities($updEmail); ?>">
+                <input type="email" id="email" name="updEmail" required>
             </div>
             <div>
                 <label for="opmerking">Opmerking:</label>
 
-                <textarea type="text" id="opmerking" name="updOpmerking" value="<?= htmlentities($updOpmerking); ?>"></textarea>
+                <textarea type="text" id="opmerking" name="updOpmerking"></textarea>
             </div>
             <div class="knop">
-                <input type="submit" name="submit" value="Aanpassen" "/>
+                <input type="submit" name="submit" value="Aanpassen" />
             </div>
         </form>
         <section/>

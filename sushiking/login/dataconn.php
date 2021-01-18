@@ -43,7 +43,7 @@ $reserveringen = $statement -> fetchAll(PDO::FETCH_OBJ);
             <td><?= e($value->opmerking)?></td>
             <td><a href="../aanpassen.php?id=<?= e($value->id) ?>">Edit</a></td>
             <td>
-                <a href="../php/delete.php?id=<?= $value->id ?>">Delete</a>
+                <a href="../php/delete.php?id=<?= e($value->id) ?>">Delete</a>
             </td>
         </tr>
         <?php } ?>
