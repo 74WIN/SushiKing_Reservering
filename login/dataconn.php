@@ -32,7 +32,7 @@ header("Refresh: 5; URL=$url1");
 <head>
     <meta charset="UTF-8">
     <title>Admin</title>
-    <link rel="stylesheet" href="opmaakdata.css">
+    <link rel="stylesheet" href="css/opmaakdata.css">
 </head>
 <body>
 <<div class="item">

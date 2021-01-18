@@ -23,11 +23,13 @@
 </header>
 <div class="main">
     <div id="verwijderen">
+        <center></center>
         <h1>Verwijderen</h1>
         <form method="post" action="">
             E-mail: <input type="text" id="delEmail" name="delEmail"/><br>
             <input type="submit" name="submit" value="Delete"/>
         </form>
+        </center>
     </div>
 </div>
 </body>

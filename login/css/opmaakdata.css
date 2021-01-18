@@ -1,7 +1,7 @@
 body {
     background-color: #FFFFFF;
     font-family: Avenir,Helvetica,Arial;
-    background-image: url('img/foto.png');
+    background-image: url('../img/foto.png');
     background-repeat: no-repeat;
     background-size: cover;
 

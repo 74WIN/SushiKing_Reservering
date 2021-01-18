@@ -25,16 +25,22 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="De opmaak is verbeterd en de bevestiging is gelinkt met de reserverings pagina">
-      <change afterPath="$PROJECT_DIR$/login/dataconn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/img/bloem (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/img/foto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/opmaakdata.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login/viewdata.php" afterDir="false" />
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Ik heb de database viewer gemaakt">
+      <change afterPath="$PROJECT_DIR$/login/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/dataconn.php" beforeDir="false" afterPath="$PROJECT_DIR$/login/dataconn.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login/opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/login/opmaak.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/php/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/login/css/opmaak.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/opmaakdata.css" beforeDir="false" afterPath="$PROJECT_DIR$/login/css/opmaakdata.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/viewdata.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/aanpassen.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/aanpassen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/bevestiging.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/bevestiging.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/css/Opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/css/Opmaak.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/php/reserveringmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/reserveringmailer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sushiking/verwijderen.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/verwijderen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -101,16 +107,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\login" />
-      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\login\css" />
       <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking" />
       <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem" />
       <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking\verwijderen" />
       <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking\bevestigen" />
-      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking\aanpassen" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\login" />
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -136,7 +142,10 @@
       <workItem from="1610035581420" duration="175000" />
       <workItem from="1610364729636" duration="38000" />
       <workItem from="1610367104023" duration="1414000" />
-      <workItem from="1610370309321" duration="8876000" />
+      <workItem from="1610370309321" duration="11355000" />
+      <workItem from="1610447301898" duration="2231000" />
+      <workItem from="1610536734510" duration="9728000" />
+      <workItem from="1610846390297" duration="458000" />
     </task>
     <task id="LOCAL-00001" summary="changed readme test">
       <created>1606414603339</created>
@@ -229,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610035739464</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ik heb de database viewer gemaakt">
+      <created>1610385270013</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610385270013</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +288,8 @@
     <MESSAGE value="Verwijderen, aanpassen en bevestiging in apparte pagina's toegevoegd" />
     <MESSAGE value="Opmaak verbeterd, Daarnaast depagina gelinkt van sushiking naar bevestiging.php" />
     <MESSAGE value="De opmaak is verbeterd en de bevestiging is gelinkt met de reserverings pagina" />
-    <option name="LAST_COMMIT_MESSAGE" value="De opmaak is verbeterd en de bevestiging is gelinkt met de reserverings pagina" />
+    <MESSAGE value="Ik heb de database viewer gemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ik heb de database viewer gemaakt" />
   </component>
   <component name="WindowStateProjectService">
     <state x="711" y="344" key="#Notifications" timestamp="1607518091332">
@@ -283,20 +300,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1609771160860" />
-    <state x="931" y="349" key="FileChooserDialogImpl" timestamp="1610367740838">
+    <state x="931" y="349" key="FileChooserDialogImpl" timestamp="1610449465228">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="931" y="349" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1610367740838" />
+    <state x="931" y="349" key="FileChooserDialogImpl/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1610449465228" />
     <state x="1241" y="470" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606664271474" />
     <state x="3491" y="711" key="FileChooserDialogImpl/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665310045" />
     <state x="184" y="86" key="MergeDialog" timestamp="1609932415817">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="MergeDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1609932415817" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1610372885024">
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1610449764689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1610372885024" />
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1610449764689" />
     <state x="3354" y="805" key="NewPhpFileDialog/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606674193406" />
     <state x="586" y="256" key="SettingsEditor" timestamp="1607526015591">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -304,10 +321,10 @@
     <state x="586" y="256" key="SettingsEditor/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1607526015591" />
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606416090744" />
     <state x="3146" y="618" key="SettingsEditor/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606665357530" />
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1610035741494">
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2" timestamp="1610385239511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1610035741494" />
+    <state x="654" y="311" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1610385239511" />
     <state x="872" y="419" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@0.0.2560.1400" timestamp="1606415656127" />
     <state x="3214" y="673" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.362.1920.1040/4480.0.2560.1400@2560.362.1920.1040" timestamp="1606673513491" />
     <state x="823" y="455" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609932316232">
@@ -328,5 +345,9 @@
     </state>
     <state x="-1288" y="325" width="1304" height="657" key="dock-window-3/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1609751632980" />
     <state x="-1501" y="362" width="1304" height="483" key="dock-window-3/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1609755411967" />
+    <state x="631" y="225" key="run.anything.popup" timestamp="1610549320501">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="631" y="225" key="run.anything.popup/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1610549320501" />
   </component>
 </project>
