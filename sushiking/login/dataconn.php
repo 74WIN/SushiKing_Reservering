@@ -61,8 +61,8 @@ header("Refresh: 5; URL=$url1");
             <td><?= $value["tijd"]?></td>
             <td><?= $value["datum"]?></td>
             <td><?= $value["opmerking"]?></td>
-            <td><a href="../sushiking/aanpassen.php?id=<?= $value['id'] ?>">Edit</a></td>
-            <td><a href="../sushiking/verwijderen.php?id=<?= $value['id'] ?>">Delete</a></td>
+            <td><a href="../aanpassen.php?id=<?= $value['id'] ?>">Edit</a></td>
+            <td><a href="../verwijderen.php?id=<?= $value['id'] ?>">Delete</a></td>
         </tr>
         <?php } ?>
     </table>
