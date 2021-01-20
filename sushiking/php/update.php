@@ -1,6 +1,6 @@
 <?php
 //past bestaande data op de database, aan de hand van de email adres kunnen andere gegevens aangepast worden.
-if(isset($_POST['updEmail'])) {
+if(isset($_POST['submit'])) {
     $updNaam = $_POST['updNaam'];
     $updTelefoonnummer = $_POST['updTelefoonnummer'];
     $updDatum = $_POST['updDatum'];
@@ -8,7 +8,7 @@ if(isset($_POST['updEmail'])) {
     $updPersonen = $_POST['updPersonen'];
     $updEmail = $_POST['updEmail'];
     $updOpmerking = $_POST['updOpmerking'];
-    $addq = "UPDATE `reserveringen` SET `naam` = :updNaam, `telefoonnummer` = :updTelefoonnummer, `tijd` = :updTijd, `personen` = :updPersonen, `email` = :updEmail, `opmerking` = :updOpmerking WHERE `email` = :updEmail";
+    $addq = "UPDATE reserveringen SET naam = :updNaam,telefoonnummer = :updTelefoonnummer,datum = :updDatum , tijd = :updTijd, personen = :updPersonen, email = :updEmail, opmerking = :updOpmerking WHERE email = :updEmail";
     $addquery = $handler->prepare($addq);
     $addresults = $addquery->execute(array(
         ":updNaam" => $updNaam,
@@ -19,6 +19,6 @@ if(isset($_POST['updEmail'])) {
         ":updEmail" => $updEmail,
         ":updOpmerking" => $updOpmerking,
     ));
-    require_once 'reserveringmailer.php';
+    require_once 'updreserveringmailer.php';
 }
 ?>

@@ -27,7 +27,7 @@ $reserveringen = $statement -> fetchAll(PDO::FETCH_OBJ);
             <th>datum</th>
             <th>opmerking</th>
             <th colspan="2"></th>
-            <th><a href="logout.php">Log out</th>
+            <th><a href="login.php">Log out</th>
         </tr>
         <?php
         //reads array and puts in table
@@ -43,7 +43,7 @@ $reserveringen = $statement -> fetchAll(PDO::FETCH_OBJ);
             <td><?= e($value->opmerking)?></td>
             <td><a href="../aanpassen.php?id=<?= e($value->id) ?>">Edit</a></td>
             <td>
-                <a href="../php/delete.php?id=<?= e($value->id) ?>">Delete</a>
+                <a href="../login/delete.php?id=<?= e($value->id) ?>">Delete</a>
             </td>
         </tr>
         <?php } ?>

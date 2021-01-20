@@ -1,15 +1,12 @@
 .main {
     background-color: #faebd7;
     opacity: 100%;
-    padding: 20px;
+    padding-top: 20px;
 }
 
 body {
     margin: 0;
-    padding: 0;
     font-family: Avenir,Helvetica,Arial;
-    width: 100vw;
-    height: 100vh;
     background-color: #faebd7;
     /*background-image: url('https://res.cloudinary.com/tf-lab/image/upload/w_1200,h_674,c_fill,g_auto:subject,q_auto,f_auto/restaurant/9c02e8cc-8320-4547-97a9-cf22f4acbcca/c031e6fb-f5ba-4b79-bb6b-f4d95dcb1692.jpg');
     background-repeat: no-repeat;
@@ -23,7 +20,11 @@ img {
     -webkit-user-drag: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-
+}
+#foto{
+    padding-top: 100px;
+    float: right;
+    margin: 0;
 }
 input[type=button],
 input[type=submit] {
@@ -40,11 +41,9 @@ input[type=submit] {
     font-family: Avenir,Helvetica,Arial;
 }
 header {
-    display: flex;
-    flex-direction: row;
+
 }
 #header-reservering {
-    width: 100vw;
     height: 50vh;
     background-image: url('../img/foto.png');
     background-attachment: fixed;
@@ -55,19 +54,17 @@ header {
 }
 nav a {
     color: #292828;
-    text-align: center;
     font-size: 10px;
-    padding: 5px;
+    padding: 10px;
     text-decoration: none;
     margin-top: 100px;
     font-weight: 900;
     transition: .5s;
 }
 nav {
-    display: flex;
-    flex-direction: row;
-    align-self: flex-end;
-    flex: 1;
+    float: right;
+    padding-top: 100px;
+    margin: 0;
 }
 
 a:hover {
@@ -81,9 +78,7 @@ a:hover {
     height: 50%;
 }
 #verwijderen{
-    margin-top: 100px;
     text-align: center;
-    margin: auto;
 }
 label{
     width: 200px;
@@ -105,16 +100,39 @@ label{
 }
 textarea {
     resize: vertical;
+    max-width: 200px;
 }
+
+.aanpasenVerwijder{
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    width: 20%;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: auto;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: Avenir,Helvetica,Arial;
+    text-align: center;
+}
+
+#titel{
+    text-align: center;
+    font-family: Avenir,Helvetica,Arial;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 27px;
+    color: #07071a;
+}
+
 @media (max-width: 960px)  {
     #logo {
         height: 75%;
         width: 100%;
     }
-
-
 }
-
 
 
 /*-webkit-tap-highlight-color: rgba(0,0,0,0);

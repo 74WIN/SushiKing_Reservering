@@ -1,7 +1,7 @@
 <?php require_once 'db/connect.php'; ?>
 <?php require_once 'php/add.php';?>
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <title></title>
     <link href ="css/Opmaak.css" rel = "stylesheet" type="text/css"/>
@@ -13,15 +13,19 @@
         <img id="logo" src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png"/>
     </a>
     <nav>
-        <a class="active" href="winkelmandje">Winkelmandje</a>
-        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
-        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
-        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
         <a href="https://www.mountainspring-sushiking.nl/">HOME</a>
+        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
+        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
+        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
+        <a class="active" href="winkelmandje">Winkelmandje</a>
     </nav>
+    <div id="titel">
+        <div>Reserveren</div>
+    </div>
 </header>
 <!--In de form hieronder kan jij de reservering plaatsen op de db-->
 <div class="main">
+    <img id="foto" src="img/bloem%20(2).png">
     <section class="border">
         <h1><center>Reserveren</center></h1>
         <form method="post" action="">
@@ -79,6 +83,14 @@
         </form>
         <section/>
 </div>
+<br>
+<div class="aanpasenVerwijder">
+<center>Al Gereserveerd? Hier kunt u uw reservering:<center>
+        <a type="button" name="submit"  href="aanpassen.php">Aanpassen</a>
+            Of
+        <a type="button" name="submit"  href="verwijderen.php">Verwijderen</a>
+        </div>
+
 </body>
 </html>
 

@@ -7,20 +7,22 @@
 </head>
 <body>
 <header id="header-reservering">
-    <div id="logo">
-        <a href="https://www.mountainspring-sushiking.nl/">
-            <img src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png" width = 350px; height=" 220px">
-            <a/>
-    </div>
+    <a href="https://www.mountainspring-sushiking.nl/">
+        <img id="logo" src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png" width = 350px; height=" 220px">
+        <a/>
     <nav>
-        <a class="active" href="winkelmandje">Winkelmandje</a>
-        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
-        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
-        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
         <a href="https://www.mountainspring-sushiking.nl/">HOME</a>
+        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
+        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
+        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
+        <a class="active" href="winkelmandje">Winkelmandje</a>
     </nav>
+    <div id="titel">
+        Bevestiging
+    </div>
 </header>
 <div class="main">
+    <img id="foto" src="img/bloem%20(2).png">
     <section>
         <center>
         <h1>Bevestiging</h1>

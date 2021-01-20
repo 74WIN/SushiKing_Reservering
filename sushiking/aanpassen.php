@@ -1,5 +1,5 @@
-<?php require_once 'php/update.php';?>
 <?php require_once 'db/connect.php'; ?>
+<?php require_once 'php/update.php';?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,23 +8,26 @@
 </head>
 <body>
 <header id="header-reservering">
-    <div id="logo">
         <a href="https://www.mountainspring-sushiking.nl/">
-            <img src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png" width = 350px; height=" 220px">
+            <img id="logo" src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png" width = 350px; height=" 220px">
             <a/>
-    </div>
     <nav>
-        <a class="active" href="winkelmandje">Winkelmandje</a>
-        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
-        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
-        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
         <a href="https://www.mountainspring-sushiking.nl/">HOME</a>
+        <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
+        <a href="https://www.mountainspring-sushiking.nl/bezorgen">BEZORGEN</a>
+        <a href=https://www.mountainspring-sushiking.nl/bezorgen>CONTACT</a>
+        <a class="active" href="winkelmandje">Winkelmandje</a>
     </nav>
+    <div id="titel">
+        Aanpassen
+    </div>
 </header>
+
 <!--In de form hieronder kan jij de reservering plaatsen op de db-->
 <div class="main">
+    <img id="foto" src="img/bloem%20(2).png">
     <section class="border">
-        <h1><center>Reserveren</center></h1>
+        <h1><center>Aanpassen</center></h1>
         <form method="post" action="">
             <div>
                 <label for="date">Datum:</label>
@@ -32,8 +35,13 @@
             </div>
             <label for="tijd">Tijd:</label>
             <select id="tijd" name="updTijd">
+                <option value="12:00">12:00</option>
+                <option value="13:00">13:00</option>
+                <option value="14:00">14:00</option>
+                <option value="15:00">15:00</option>
+                <option value="16:00">16:00</option>
                 <option value="17:00">17:00</option>
-                <option value="20:00">20:00</option>
+                <option value="19:45">19:45</option>
             </select>
             <br>
             <label for="personen">personen:</label>
@@ -67,7 +75,7 @@
             <div>
                 <label for="opmerking">Opmerking:</label>
 
-                <textarea type="text" id="opmerking" name="updOpmerking"></textarea>
+                <textarea type="text" id="opmerking" name="updOpmerking" cols="30" rows="5" maxlength="50"></textarea>
             </div>
             <div class="knop">
                 <input type="submit" name="submit" value="Aanpassen" />
