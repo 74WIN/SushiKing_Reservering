@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,19 +28,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Xss beveiliging toegevoegd met de file php/xssSecurity.php. Bij data dat geoutput wordt moet de functie e($voorbeeld) gebruikt voor voor xss beveiliging.&#10;In de file dataconn.php is het met pdo weergegeven en is er een delete button toegevoegd.">
-      <change afterPath="$PROJECT_DIR$/sushiking/php/updreserveringmailer.php" afterDir="false" />
+    <list default="true" id="8e187ab5-6b93-4100-aa43-17c56edc2ab7" name="Default Changelist" comment="Opmaak afgerond en aanpassen.php gefixed">
+      <change afterPath="$PROJECT_DIR$/sushiking/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/.idea/sushiking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sushiking/succesvolVerwijderd.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/aanpassen.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/aanpassen.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/bevestiging.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/bevestiging.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/css/Opmaak.css" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/css/Opmaak.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/login/dataconn.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/login/dataconn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/login/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/login/delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/php/delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/delete.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/php/reserveringmailer.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/reserveringmailer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/php/update.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/update.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sushiking/php/xssSecurity.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/php/xssSecurity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sushiking/verwijderen.php" beforeDir="false" afterPath="$PROJECT_DIR$/sushiking/verwijderen.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,8 +95,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sushiking" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -106,8 +110,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\login" />
       <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\sushiking" />
+      <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\login" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\XAMPP\htdocs\Sushi_KingReserveringssysteem\login\css" />
@@ -147,7 +151,19 @@
       <workItem from="1610960920365" duration="496000" />
       <workItem from="1610996674114" duration="1651000" />
       <workItem from="1611072856389" duration="1185000" />
-      <workItem from="1611134648446" duration="6012000" />
+      <workItem from="1611134648446" duration="9392000" />
+      <workItem from="1611742269158" duration="178000" />
+      <workItem from="1613477427132" duration="240000" />
+      <workItem from="1613478391715" duration="1228000" />
+      <workItem from="1614776496761" duration="76000" />
+      <workItem from="1615200024552" duration="4101000" />
+      <workItem from="1617027747705" duration="619000" />
+      <workItem from="1617102493659" duration="14000" />
+      <workItem from="1617268246892" duration="31000" />
+      <workItem from="1645205650996" duration="1036000" />
+      <workItem from="1647291680500" duration="845000" />
+      <workItem from="1652094466963" duration="645000" />
+      <workItem from="1652805967857" duration="666000" />
     </task>
     <task id="LOCAL-00001" summary="changed readme test">
       <created>1606414603339</created>
@@ -268,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610978417025</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Opmaak afgerond en aanpassen.php gefixed">
+      <created>1611143399349</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1611143399349</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,20 +337,7 @@
     <MESSAGE value="Ik heb de database viewer gemaakt" />
     <MESSAGE value="Ik heb de tijden verandert" />
     <MESSAGE value="Xss beveiliging toegevoegd met de file php/xssSecurity.php. Bij data dat geoutput wordt moet de functie e($voorbeeld) gebruikt voor voor xss beveiliging.&#10;In de file dataconn.php is het met pdo weergegeven en is er een delete button toegevoegd." />
-    <option name="LAST_COMMIT_MESSAGE" value="Xss beveiliging toegevoegd met de file php/xssSecurity.php. Bij data dat geoutput wordt moet de functie e($voorbeeld) gebruikt voor voor xss beveiliging.&#10;In de file dataconn.php is het met pdo weergegeven en is er een delete button toegevoegd." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="-1253" y="168" key="#PHP" timestamp="1610993189713">
-      <screen x="-1920" y="5" width="1920" height="1040" />
-    </state>
-    <state x="-1253" y="168" key="#PHP/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1610993189713" />
-    <state x="804" y="459" key="NewPhpFileDialog" timestamp="1610997016694">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="804" y="459" key="NewPhpFileDialog/0.0.1920.1040/-1920.5.1920.1040@0.0.1920.1040" timestamp="1610997016694" />
-    <state x="-1143" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610993205895">
-      <screen x="-1920" y="5" width="1920" height="1040" />
-    </state>
-    <state x="-1143" y="439" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.5.1920.1040@-1920.5.1920.1040" timestamp="1610993205895" />
+    <MESSAGE value="Opmaak afgerond en aanpassen.php gefixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Opmaak afgerond en aanpassen.php gefixed" />
   </component>
 </project>

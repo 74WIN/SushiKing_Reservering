@@ -1,5 +1,3 @@
-<?php require_once 'db/connect.php'; ?>
-<?php require_once 'php/delete.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +7,9 @@
 </head>
 <body>
 <header id="header-reservering">
-        <a href="https://www.mountainspring-sushiking.nl/">
-            <img id="logo" src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png" width = 350px; height=" 220px">
-            <a/>
+    <a href="https://www.mountainspring-sushiking.nl/">
+        <img id="logo" src="https://www.mountainspring-sushiking.nl/img/logo-transparent.243a420c.png" width = 350px; height=" 220px">
+        <a/>
     <nav>
         <a href="https://www.mountainspring-sushiking.nl/">HOME</a>
         <a href="https://www.mountainspring-sushiking.nl/menukaart">MENUKAART</a>
@@ -20,17 +18,16 @@
         <a class="active" href="winkelmandje">Winkelmandje</a>
     </nav>
     <div id="titel">
-        <div>Verwijderen</div>
+        Bevestiging
     </div>
 </header>
 <div class="main">
-    <div id="verwijderen">
-        <h1>Verwijderen</h1>
-        <form method="post" action="succesvolVerwijderd.php">
-            E-mail: <input type="text" id="delEmail" name="delEmail" required/><br>
-            <input type="submit" name="submit" value="Delete" href="succesvolVerwijderd.php"/>
-        </form>
-    </div>
+    <section>
+        <center>
+        <h1>Reservering Geannuleerd</h1>
+        Uw reservering is geannuleerd.
+        </center>
+        <section/>
 </div>
 </body>
 </html>

@@ -22,7 +22,6 @@
     </div>
 </header>
 <div class="main">
-    <img id="foto" src="img/bloem%20(2).png">
     <section>
         <center>
         <h1>Bevestiging</h1>

@@ -31,19 +31,19 @@ $reserveringen = $statement -> fetchAll(PDO::FETCH_OBJ);
         </tr>
         <?php
         //reads array and puts in table
-        foreach($reserveringen as $value){ ?>
+        foreach($reserveringen as $reservering){ ?>
         <tr>
-            <td><?= e($value->id)?></td>
-            <td><?= e($value->naam)?></td>
-            <td><?= e($value->telefoonnummer)?></td>
-            <td><?= e($value->email)?></td>
-            <td><?= e($value->personen)?></td>
-            <td><?= e($value->tijd)?></td>
-            <td><?= e($value->datum)?></td>
-            <td><?= e($value->opmerking)?></td>
-            <td><a href="../aanpassen.php?id=<?= e($value->id) ?>">Edit</a></td>
+            <td><?= e($reservering->id)?></td>
+            <td><?= e($reservering->naam)?></td>
+            <td><?= e($reservering->telefoonnummer)?></td>
+            <td><?= e($reservering->email)?></td>
+            <td><?= e($reservering->personen)?></td>
+            <td><?= e($reservering->tijd)?></td>
+            <td><?= e($reservering->datum)?></td>
+            <td><?= e($reservering->opmerking)?></td>
+            <td><a href="../aanpassen.php?id=<?= e($reservering->id) ?>">Edit</a></td>
             <td>
-                <a href="../login/delete.php?id=<?= e($value->id) ?>">Delete</a>
+                <a href="../login/delete.php?id=<?= e($reservering->id) ?>">Delete</a>
             </td>
         </tr>
         <?php } ?>

@@ -31,7 +31,7 @@
         <form method="post" action="">
             <div>
                 <label for="date">Datum:</label>
-                <input type="date" name="updDatum" min="<?php echo date("Y-m-d"); ?>">
+                <input type="date" name="updDatum" min="<?php echo date("Y-m-d"); ?>" required>
             </div>
             <label for="tijd">Tijd:</label>
             <select id="tijd" name="updTijd">
@@ -45,7 +45,7 @@
             </select>
             <br>
             <label for="personen">personen:</label>
-            <select id="personen" name="updPersonen">
+            <select id="personen" name="updPersonen" required>
                 <option value=1>1 persoon</option>
                 <option value=2">2 personen</option>
                 <option value=3">3 personen</option>
