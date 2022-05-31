@@ -37,7 +37,7 @@ try {
     */
 
     $body = '<p>Bedankt voor uw reservering bij Sushi King.</br> 
-                Om ' . $_POST['updTijd'] . ' op ' . $_POST['updDatum'] . ' onder de naam ' . $_POST['updNaam'] . '.</br> Voor vragen kunt u telefonisch contact opnemen op 
+                Om ' . $_POST['updTijd'] . ' op ' . $_POST['updDatum'] . ' onder de naam ' . $_POST['updNaam'] . ' met de opmerking ' . $_POST['updOpmerking'] . ' . </br> Voor vragen kunt u telefonisch contact opnemen op
                 0180-418 414. </br>Adres: </br> van Prinstererweg 19-21 <br> Ridderkerk</p>';
 
     // Content
